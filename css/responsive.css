@@ -1,0 +1,77 @@
+@media (max-width:1024px){
+    .popularvinyl{
+        flex-wrap: wrap;
+    }
+    .vinyldiv{
+        margin-left: 10px;
+        margin-bottom: 30px
+    }
+}
+
+
+@media (max-width:768px){
+    .upperdiv{
+        height: 480px;
+    
+    }
+    .upperdiv p{
+        font-size: 45px;
+        padding: 0;
+        padding-top: 200px;
+    }
+    
+}
+
+
+@media (max-width:480px){
+    .nav-ul{
+        display: none;
+    }
+    .burgerbar{
+        display: block;
+        margin-right: 20px;
+        font-size: 30px;
+    }
+    .myc {
+        margin: 0;
+    }
+    .upperdiv p{
+        font-size: 40px;
+        padding: 0;
+        padding-top: 130px;
+        
+    }
+    .upperdiv{
+        height: 350px;
+    }
+    .choosediv{
+        flex-wrap: wrap;
+        
+    }
+    .choosediv :nth-child(2){
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
+    }
+    .choosediv :nth-child(4){
+        margin: 0;
+        margin: 5px;
+        
+    }
+    
+    
+}
+
+@media (max-width:320px){
+    .aboutus h2{
+        font-size: 35px;
+        margin: 0 auto;
+    }
+    .aboutus p{
+        font-size: 16px;
+    }
+    .footer-block p{
+        font-size: 16px;
+    }
+
+}
