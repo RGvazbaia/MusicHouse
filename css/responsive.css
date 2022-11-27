@@ -10,6 +10,14 @@
 
 
 @media (max-width:768px){
+    .nav-ul{
+        display: none;
+    }
+    .burgerbar{
+        display: block;
+        margin-right: 20px;
+        font-size: 30px;
+    }
     .upperdiv{
         height: 480px;
     
@@ -36,13 +44,31 @@
         margin: 0;
     }
     .upperdiv p{
-        font-size: 40px;
+        font-size: 30px;
         padding: 0;
         padding-top: 130px;
         
     }
     .upperdiv{
-        height: 350px;
+        height: 330px;
+    }
+    .myc{
+        font-size: 35px;
+    }
+    .h3popular{
+        font-size: 35px;
+    }
+    
+    .aboutus h2{
+        font-size: 35px;
+        margin: 0 auto;
+    }
+    .aboutus p{
+        font-size: 16px;
+        
+    }
+    .footer-block p{
+        font-size: 14px;
     }
     .choosediv{
         flex-wrap: wrap;
@@ -58,20 +84,45 @@
         margin: 5px;
         
     }
-    
-    
 }
 
 @media (max-width:320px){
+    .nav-ul{
+        display: none;
+    }
+    .burgerbar{
+        display: block;
+        margin-right: 20px;
+        font-size: 30px;
+    }
+    .upperdiv{
+        height: 250px;
+    }
+    .upperdiv p{
+        font-size: 25px;
+        padding: 0;
+        padding-top: 90px;
+    }
+    
+    .myc{
+        font-size: 30px;
+    }
+    .h3popular{
+        font-size: 30px;
+    }
+    .imgdiv img{
+        width: 290px;
+    }
     .aboutus h2{
-        font-size: 35px;
+        font-size: 30px;
         margin: 0 auto;
     }
     .aboutus p{
         font-size: 16px;
     }
     .footer-block p{
-        font-size: 16px;
+        font-size: 14px;
     }
-
+       
+    
 }

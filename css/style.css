@@ -11,9 +11,13 @@
 	left: 0;
 	width: 100%;
 	z-index: 100;
-    background-color: white;
+    
        
 
+}
+.flex-header img{
+    width: 80px;
+    
 }
 .nav-ul{
     display: flex;
@@ -42,10 +46,10 @@
 
 /* section2 */
 .bodystyle{
-    /* background-image: url('../images/bckbody.jpg'); */
+    background-image: url('../images/#');
     
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     width: 100%;
     height: 100%;
     
@@ -91,16 +95,16 @@
         
 } 
 .choosediv :nth-child(2){
-    margin: 0 15px;
+    margin: 0 20px;
     
 }
 .choosediv :nth-child(4){
-    margin-left: 15px;
+    margin-left: 20px;
    
 }
     
 .choosediv  img{
-    border-radius: 15px;
+    border-radius: 20px;
     max-width: 300px;
     width: 100%;
 } 
@@ -222,3 +226,15 @@
     color:#5863F8;    
     font-family: 'Poppins';
 }
+
+
+/* hover */
+
+.nav-ul li:hover{
+    font-size: 30px;
+    
+}
+.imgdiv:hover{
+    transform:scale(1.1);
+}
+
