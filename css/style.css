@@ -188,7 +188,11 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
     text-align: justify;
     margin-top: 15px;
     font-family: 'Arsenal';
-    color: white;
+    color: white; 
+    
+    
+    align-items: center;
+    background-color: r
 }
 
 /* section 6  footer*/
@@ -213,6 +217,7 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
    .icons {
     display: flex;
     justify-content: space-between;
+
    }
 
 
@@ -224,11 +229,14 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
 .instagram{
     font-size: 40px;
     color: blueviolet;
+    
 }
 .youtobe{
     font-size: 40px;
     color: #DC4E41;
+    margin-left: 40px;
     
+
 }
 .twitter{
     font-size: 40px;
@@ -248,7 +256,7 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
 }
 
 
-/* hover */
+/* hover index */
 
 .nav-ul li a:hover{
     font-size: 40px;
@@ -300,7 +308,7 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
 .sendmail{    
     max-width: 600px;
     width: 100%;
-    border-radius: 25px;     
+    border-radius: 20px;     
     display: flex;
     flex-direction: column;
     background-color: #0b0739;
@@ -350,11 +358,14 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
     margin-left: 14px;
     color: red;
 }
-.weblinks{    
-    max-width: 600px;
+.weblinks{  
+    max-width: 800px;
     width: 100%;
-    border-radius: 15px;
-    margin-left: 200px;
+    margin-left: 150px;
+    
+
+    
+
 }
 .weblinks p{
     color: white;
@@ -393,4 +404,39 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
    
     color: #55ACEE;
 }
+/* hover contact */
 
+.weblinks .fa-facebook:hover{
+    font-size: 120px;
+    }
+.weblinks .fa-instagram:hover{
+    font-size: 120px;
+}
+.weblinks .fa-paper-plane:hover{
+    font-size: 120px;
+}
+.weblinks .fa-twitter:hover{
+    font-size: 130px;
+}
+
+
+/* About us */
+.aboutuspage{
+    max-width: 1500px;
+    width: 100%;
+    text-align: center;
+    margin: 200px auto;
+    
+}
+.aboutuspage :nth-child(1){
+    font-size: 42px;
+    color: white;
+    font-family: 'Merienda';
+}
+.aboutuspage :nth-child(2){
+    font-size: 25px;
+    text-align: justify;
+    color: white;
+    margin-top: 50px;
+    font-family: 'Merienda';
+}
