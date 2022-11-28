@@ -25,3 +25,31 @@
 }
 
 
+@font-face {
+    font-family: 'Arsenal';
+    src: url('../fonts/Arsenal-Regular.eot');
+    src: url('../fonts/Arsenal-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Arsenal-Regular.woff2') format('woff2'),
+        url('../fonts/Arsenal-Regular.woff') format('woff'),
+        url('../fonts/Arsenal-Regular.ttf') format('truetype'),
+        url('../fonts/Arsenal-Regular.svg#Arsenal-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('../fonts/Merienda-Medium.eot');
+    src: url('../fonts/Merienda-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Merienda-Medium.woff2') format('woff2'),
+        url('../fonts/Merienda-Medium.woff') format('woff'),
+        url('../fonts/Merienda-Medium.ttf') format('truetype'),
+        url('../fonts/Merienda-Medium.svg#Merienda-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

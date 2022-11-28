@@ -1,4 +1,13 @@
+/* index */
 @media (max-width:1024px){
+    .upperdiv{
+        height: 450px;
+    }
+    .upperdiv p{
+        padding: 0;
+        padding-top: 200px;
+        font-size: 40px;
+    }
     .popularvinyl{
         flex-wrap: wrap;
     }
@@ -6,6 +15,7 @@
         margin-left: 10px;
         margin-bottom: 30px
     }
+    
 }
 
 
@@ -19,13 +29,13 @@
         font-size: 30px;
     }
     .upperdiv{
-        height: 480px;
+        height: 330px;
     
     }
     .upperdiv p{
-        font-size: 45px;
+        font-size: 30px;
         padding: 0;
-        padding-top: 200px;
+        padding-top: 150px;
     }
     
 }
@@ -42,19 +52,25 @@
     }
     .myc {
         margin: 0;
-    }
-    .upperdiv p{
-        font-size: 30px;
-        padding: 0;
-        padding-top: 130px;
-        
-    }
-    .upperdiv{
-        height: 330px;
-    }
-    .myc{
         font-size: 35px;
     }
+    .upperdiv p{
+        font-size: 20px;
+        padding: 0;
+        padding-top: 100px;
+        
+    }
+    .upperdiv{ 
+        
+        height: 330px;
+        
+        
+    }
+    .bck{
+        width: 100%;
+
+    }
+    
     .h3popular{
         font-size: 35px;
     }
@@ -99,7 +115,7 @@
         height: 250px;
     }
     .upperdiv p{
-        font-size: 25px;
+        font-size: 15px;
         padding: 0;
         padding-top: 90px;
     }
@@ -126,3 +142,86 @@
        
     
 }
+
+/* contact */
+@media (max-width:1024px){
+    .sendmail{
+         margin-left: 20px;
+    }
+    .weblinks a{
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width:768px){
+    .sendmail{
+        margin-left: 20px;
+    }
+    .sendmail p{
+        font-size: 35px;
+       
+    }
+    .weblinks p{
+        font-size: 35px;
+    }
+    .weblinks{
+        
+        display: flex;
+        height: 650px;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .fa-facebook{
+        margin: 0;
+        width: 100%;
+        
+        
+        color: #3B5998;
+        
+    }
+    .fa-instagram{
+        margin: 0;
+        margin: 20px auto;
+        
+        color: blueviolet;
+    }
+    .fa-paper-plane{
+        margin: 0;
+        margin: 20px auto;
+        color: #DC4E41;
+    
+    }
+    .fa-twitter{ 
+        margin: 0;
+        margin: 20px auto;  
+        color: #55ACEE;
+    }
+    
+}
+
+@media (max-width:480px){
+    .mailclass{
+        flex-wrap: wrap;
+    }
+    .sendmail{
+        margin: 0;
+    }
+    .weblinks {
+        margin: 0;
+        margin-top: 50px;
+        height: 300px;
+        
+    }
+    .weblinks p{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+   .contactmap p{
+    font-size: 35px;
+   }
+}
+
+
