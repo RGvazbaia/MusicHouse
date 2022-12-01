@@ -97,11 +97,11 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
         
 } 
 .choosediv :nth-child(2){
-    margin: 0 20px;
+    margin: 0 40px;
     
 }
 .choosediv :nth-child(4){
-    margin-left: 20px;
+    margin-left: 40px;
    
 }
     
@@ -160,8 +160,11 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
 .vinyldiv a{
     font-size: 50px;
     color: red;
-    align-items: center;
     
+    
+}
+.vinyldiv .fa-youtube{
+    margin-left: 100px;
 }
 
 

@@ -20,13 +20,16 @@
 
 
 @media (max-width:768px){
-    .nav-ul{
+    .nav-ul {
         display: none;
+        font-size: px;
     }
+    
     .burgerbar{
         display: block;
         margin-right: 20px;
         font-size: 30px;
+        color: white;
     }
     .upperdiv{
         height: 330px;
@@ -42,6 +45,7 @@
 
 
 @media (max-width:480px){
+    
     .nav-ul{
         display: none;
     }
@@ -49,6 +53,7 @@
         display: block;
         margin-right: 20px;
         font-size: 30px;
+        color: white;
     }
     .myc {
         margin: 0;
@@ -62,7 +67,7 @@
     }
     .upperdiv{ 
         
-        height: 330px;
+        height: 250px;
         
         
     }
@@ -91,13 +96,13 @@
         
     }
     .choosediv :nth-child(2){
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 40px;
+        margin-bottom: 40px;
         
     }
     .choosediv :nth-child(4){
         margin: 0;
-        margin: 5px;
+        margin: 40px;
         
     }
 }
@@ -110,14 +115,15 @@
         display: block;
         margin-right: 20px;
         font-size: 30px;
+        color: white;
     }
     .upperdiv{
-        height: 250px;
+        height:150px;
     }
     .upperdiv p{
-        font-size: 15px;
+        font-size: 13px;
         padding: 0;
-        padding-top: 90px;
+        padding-top: 60px;
     }
     
     .myc{
@@ -157,6 +163,8 @@
 @media (max-width:768px){
     .sendmail{
         margin-left: 20px;
+        max-width: 500px;
+        width: 100%;
     }
     .sendmail p{
         font-size: 35px;
@@ -174,27 +182,26 @@
         
         
     }
-    .fa-facebook{
+    .weblinks .fa-facebook{
         margin: 0;
         width: 100%;
-        
         
         color: #3B5998;
         
     }
-    .fa-instagram{
+    .weblinks .fa-instagram{
         margin: 0;
         margin: 20px auto;
         
         color: blueviolet;
     }
-    .fa-paper-plane{
+    .weblinks .fa-paper-plane{
         margin: 0;
         margin: 20px auto;
         color: #DC4E41;
     
     }
-    .fa-twitter{ 
+    .weblinks .fa-twitter{ 
         margin: 0;
         margin: 20px auto;  
         color: #55ACEE;
