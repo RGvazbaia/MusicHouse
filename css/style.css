@@ -2,7 +2,6 @@
 
 .flex-header{    
     width:80%;
-       
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,19 +37,15 @@
 }
 
     
-.iconclass{
-    width: 70x;
-    height: 70px;
-}
 
 .burgerbar {
     display: none;
 }
 
-/* section2 */
+/* section */
 .bodystyle{  
     background: rgb(54,64,130);
-background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
+background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%); 
     width: 100%;
     height: 100%;
     
@@ -63,54 +58,76 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
     max-width: 1500px;
     width: 100%;  
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 29px;
+    background-color: RED;
+    
     
 }
+
 .upperdiv{
-     height: 650px;
+    max-width: 1712px;    
+    width: 100%;
+    height: 736px;
+    
+    
+        
 }
-.upperdiv p{
+.upperdiv :nth-child(1){
     
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     margin: 0 auto;
-    padding-top: 300px;
+    padding-top: 200px;
+    font-family: 'Merienda';
+    
+    
+    
+}
+.upperdiv :nth-child(2){
+    
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;    
     font-family: 'Merienda';
     
 }
 
-/* section3 */
-.myc{
+.bodysection{
+    max-width: 1500px;
+    width: 100%;    
+    margin: 50px auto;
+    
+}
+.h2classstyle{    
+    color: #ffffff;
+    font-size: 30px;
     text-align: center;
-    width: 100%;
-    font-size: 42px;
     margin-top: 100px;
-    color: white;
-    font-family: 'Arsenal';
+}
+.slider {
+    display: flex;
+}
+.slider .slider_item {
+    width: 350px;
+    height: 280px;
+    margin:30px;
+}
+.slider .slider_item img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+body {
+	
+	padding:40px;
 }
 
-.choosediv{
-    margin-top: 42px;    
-    display: flex;  
-    justify-content: center;  
-        
-} 
-.choosediv :nth-child(2){
-    margin: 0 40px;
-    
-}
-.choosediv :nth-child(4){
-    margin-left: 40px;
-   
-}
-    
-.choosediv  img{
-    border-radius: 20px;
-    max-width: 300px;
-    width: 100%;
-    box-shadow: 0 0 15px black;
-} 
 
 /* section 4 */
 .h3popular{
@@ -169,7 +186,7 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
 
 
 
-/* section 5 */
+/* aboutus */
 .aboutus{
     max-width: 700px;
     width: 100%;
@@ -191,14 +208,12 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
     text-align: justify;
     margin-top: 15px;
     font-family: 'Arsenal';
-    color: white; 
-    
-    
+    color: white;   
     align-items: center;
-    background-color: r
+    
 }
 
-/* section 6  footer*/
+/*   footer*/
 
 .footer-block{
     background-color: black;
@@ -443,3 +458,4 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
     margin-top: 50px;
     font-family: 'Merienda';
 }
+
