@@ -1,26 +1,57 @@
 /* index */
 @media (max-width:1024px) {
-    .upperdiv{
-        height: 400px;
-        
+    .nav-ul li{
+        display: none;
+
     }
-    .upperdiv :nth-child(1){
-        padding: 0;
-        padding-top: 150px;
-        font-size: 40px;
-        
-    }
-    .upperdiv :nth-child(2){
-        font-size: 40px;
+    .burgerbar{
+        display: block;
+        margin-right: 50px;
+        font-size: 30px;
+        color: white;
     }
     
+    .bck{
+        max-width: 800px;
+        width: 100%;
+        height: 500px;
+        margin-top: 60px;
+        
+    }
+   
+    .bck :nth-child(1){
+        padding: 0;
+        padding-top: 200px;
+        font-size: 30px;
+    }
+
+    .bck :nth-child(2){
+        font-size: 30px;
+    }
+     
+    
+    .slidesToScroll{
+        display: none;
+    }
+     
+    .slider .slider_item img{
+        width: 240px;
+        
+        
+    }
+     .slick-track:before{
+        display: none;
+    }
+
+    
+
     
     .popularvinyl{
         flex-wrap: wrap;
     }
     .vinyldiv{
         margin-left: 10px;
-        margin-bottom: 30px
+        margin-bottom: 30px;
     }
     
 }
@@ -38,23 +69,21 @@
         font-size: 30px;
         color: white;
     }
-    .upperdiv{
-        height: 290px;
+    .bck{
+        max-width: 700px;
+        width: 100%;
+        height: 480px;
+    }
+    .bck :nth-child(1){
+        font-size: 28px;
+        padding-top: 190px;
+    }
+    .bck :nth-child(2){
+        font-size: 28px;
+              
+     }  
     
-    }
-    .upperdiv :nth-child(1){
-        font-size: 32px;
-        padding: 0;
-        padding-top: 100px;
-    }
-    .upperdiv :nth-child(2){
-        font-size: 32px;
-        padding: 0;
-        padding-top: 20px;
-    }
-    .bodystyle{
-        
-    }
+    
 }
 
 
@@ -69,28 +98,20 @@
         font-size: 30px;
         color: white;
     }
-    .myc {
-        margin: 0;
-        font-size: 35px;
-    }
-    .upperdiv :nth-child(1){
-        font-size: 20px;
-        padding: 0;
-        padding-top: 50px;
-        
-    }
-    .upperdiv :nth-child(2){
-        font-size: 20px;
-    }
-    .upperdiv{ 
-        height: 170px;
-        
-        
-    }
-    .bck{
-        width: 100%;
 
+    .bck{
+        max-width: 440px;
+        width: 100%;
+        height: 300px;
     }
+    .bck :nth-child(1){
+        font-size: 18px;
+        padding-top: 120px;
+    }
+    .bck :nth-child(2){
+        font-size: 18px;
+              
+     }  
     
     .h3popular{
         font-size: 35px;
@@ -115,34 +136,29 @@
     }
     .burgerbar{
         display: block;
-        margin-right: 20px;
+        margin-right: 30px auto;
         font-size: 30px;
         color: white;
     }
-    .upperdiv{
-        height:100px;
+    .bck{
+        max-width: 300px;
+        width: 100%;
+        height: 205px;
     }
-    .upperdiv :nth-child(1){
+    .bck :nth-child(1){
+        font-size: 13px;
+        padding-top: 90px;
+    }
+    .bck :nth-child(2){
         font-size: 13px;
         padding: 0;
-        padding-top: 30px;
-    }
-    .upperdiv :nth-child(2){
-        font-size: 13px;
-        padding: 0;
-        padding-top: 8px;
-    }
-    .bodysection{
-        
-    }
-    
-    
+        padding-top: 10px;
+              
+     } 
     .h3popular{
         font-size: 30px;
     }
-    .imgdiv img{
-        width: 290px;
-    }
+    
     .aboutus h2{
         font-size: 30px;
         margin: 0 auto;
@@ -153,7 +169,9 @@
     .footer-block p{
         font-size: 14px;
     }
-       
+    .fa-brands{
+        font-size: 25px;
+    }   
     
 }
 

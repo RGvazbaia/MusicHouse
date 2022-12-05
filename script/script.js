@@ -6,7 +6,7 @@ $(function(){
 	// სლაიდის დროს რამდენი ელემნტით გადავიდეს 
 	slidesToScroll: 1,
 	// რომ გამოჩნდეს ღილაკები
-	arrows: true,
+	arrows: false,
 	// რომ გამოჩნდეს ბურთულები
 	dots:true,
 	// responsiv-ის კოდი
