@@ -12,14 +12,14 @@ $(function(){
 	// responsiv-ის კოდი
 	responsive: [
 	    {
-	      breakpoint: 768,
+	      breakpoint: 769,
 	      settings: {
 	        slidesToShow: 2,
 	        slidesToScroll: 1
 	      }
 	    },
 	    {
-	      breakpoint: 480,
+	      breakpoint: 481,
 	      settings: {
 	        slidesToShow: 1,
 	        slidesToScroll: 1
