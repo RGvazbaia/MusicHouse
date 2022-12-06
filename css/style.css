@@ -1,7 +1,7 @@
 /* section 1header */
 
 .flex-header{    
-    width:80%;
+    width:100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,9 +9,9 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 100;
-    background: rgb(15,17,29);
-    background: linear-gradient(90deg, rgba(15,17,29,1) 23%, rgba(64,73,126,0.01) 95%);
+	/* z-index: 100; */
+    background: rgb(11,6,3);
+background: linear-gradient(90deg, rgba(11,6,3,1) 15%, rgba(117,62,2,0.5914740896358543) 100%);
 
 }
 .flex-header img{
@@ -24,7 +24,7 @@
 }
 .nav-ul li a{
     margin-left: 150px;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     font-family: 'Arsenal';
     
@@ -44,8 +44,8 @@
 
 /* section */
 .bodystyle{  
-    background: rgb(54,64,130);
-background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%); 
+    background: rgb(79,49,30);
+    background: radial-gradient(circle, rgba(79,49,30,1) 0%, rgba(0,0,0,1) 51%);
     width: 100%;
     height: 100%;
     
@@ -54,17 +54,13 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
 .bck{
     background-image: url('../images/vinyl.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     max-width: 1200px;
     width: 100%;
-    height: 800px;  
+    height: 800px;
     margin: 0 auto;
     margin-top: 60px;
     border-radius: 15px;
-    
-    
-    
-    
 }
 
 
@@ -113,7 +109,7 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
 }
 .slider .slider_item img {
     width: 300px;
-    height: 300px;
+    height:300px;
     display: block;
     object-fit: cover;
     border-radius: 10px;
@@ -237,24 +233,24 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
    }
 
 
-.facebook{
+   .icons .fa-facebook{
     font-size: 40px;
     color: #3B5998
     
 }
-.instagram{
+.icons .fa-instagram{
     font-size: 40px;
     color: blueviolet;
     
 }
-.youtobe{
+.icons .fa-youtube{
     font-size: 40px;
     color: #DC4E41;
     margin-left: 40px;
     
 
 }
-.twitter{
+.icons .fa-twitter{
     font-size: 40px;
     color: #55ACEE;
 }
@@ -275,7 +271,7 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
 /* hover index */
 
 .nav-ul li a:hover{
-    font-size: 40px;
+    font-size: 22px;
     text-shadow: 0 0 30px;
 
     
@@ -305,7 +301,7 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
     margin-top: 50px;
     border-radius: 25px;
 }
-.contactmap p{
+.contactmap h2{
     font-size: 42px;
     font-family: 'Merienda';
     color: white;
@@ -316,8 +312,7 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
 .mailclass{
     border-radius: 25px;
     max-width: 1400px;
-    display: flex;
-    
+    display: flex;    
     margin: 150px auto;
     
 }
@@ -328,11 +323,9 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
     display: flex;
     flex-direction: column;
     background-color: #0b0739;
-    box-shadow: 0 0 50px;
-    
-
+    box-shadow: 0 0 50px;    
 }
-.sendmail p{
+.sendmail h2{
     text-align: center;
     margin-bottom: 50px;
     font-size: 42px;
@@ -383,7 +376,7 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
     
 
 }
-.weblinks p{
+.weblinks h2{
     color: white;
     text-align: center;
     font-size: 42px;
@@ -398,11 +391,8 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
     
 }
 .fa-facebook{
-    margin-left: 25px;
-    
-    
+    margin-left: 25px;    
     color: #3B5998;
-    
 }
 .fa-instagram{
     margin-left: 50px;
@@ -420,19 +410,19 @@ background: radial-gradient(circle, rgba(54,64,130,1) 5%, rgba(4,5,10,1) 93%);
    
     color: #55ACEE;
 }
-/* hover contact */
+hover contact */
 
-.weblinks .fa-facebook:hover{
-    font-size: 120px;
+ .weblinks .fa-facebook:hover{
+    font-size: 110px;
     }
 .weblinks .fa-instagram:hover{
-    font-size: 120px;
+    font-size: 110px;
 }
 .weblinks .fa-paper-plane:hover{
-    font-size: 120px;
+    font-size: 110px;
 }
 .weblinks .fa-twitter:hover{
-    font-size: 130px;
+    font-size: 110px;
 }
 
 
