@@ -1,15 +1,5 @@
 /* index */
 @media (max-width:1024px) {
-    .nav-ul li{
-        display: none;
-
-    }
-    .burgerbar{
-        display: block;
-        margin-right: 50px;
-        font-size: 30px;
-        color: white;
-    }
     
     .bck{
         max-width: 800px;
@@ -58,17 +48,23 @@
 
 
 @media (max-width:768px) {
-    .nav-ul {
-        display: none;
-        
-    }
-    
     .burgerbar{
         display: block;
         margin-right: 20px;
         font-size: 30px;
         color: white;
     }
+    .navigation{
+        display: none;
+
+    }
+    
+    .navActive{
+        display: block;
+    }
+
+    
+    
     .bck{
         max-width: 700px;
         width: 100%;
@@ -89,8 +85,9 @@
 
 @media (max-width:480px){
     
-    .nav-ul{
+    .navigation{
         display: none;
+
     }
     .burgerbar{
         display: block;
@@ -131,8 +128,9 @@
  
 }
 @media (max-width:320px){
-    .nav-ul{
+    .navigation{
         display: none;
+
     }
     .burgerbar{
         display: block;
