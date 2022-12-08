@@ -36,7 +36,7 @@
 
 @media (max-width: 768px) {
   .burgerbar {
-    display: block;    
+    display: block;
     font-size: 30px;
     color: white;
   }
@@ -46,16 +46,15 @@
   .navActive {
     display: block;
   }
-  .flex-header{
+  .flex-header {
     flex-direction: column;
   }
-  .nav-ul {      
+  .nav-ul {
     flex-direction: column;
     text-align: justify;
     top: 50px;
     right: 20px;
     position: fixed;
-        
   }
   .bck {
     height: 330px;
@@ -75,7 +74,7 @@
 }
 @media (max-width: 480px) {
   .burgerbar {
-    display: block;    
+    display: block;
     font-size: 30px;
     color: white;
   }
@@ -85,16 +84,15 @@
   .navActive {
     display: block;
   }
-  .flex-header{
+  .flex-header {
     flex-direction: column;
   }
-  .nav-ul {      
+  .nav-ul {
     flex-direction: column;
     text-align: justify;
     top: 50px;
     right: 20px;
     position: fixed;
-        
   }
   .bck {
     height: 210px;
@@ -129,10 +127,9 @@
   }
 }
 
-
 @media (max-width: 320px) {
   .burgerbar {
-    display: block;    
+    display: block;
     font-size: 30px;
     color: white;
   }
@@ -142,16 +139,15 @@
   .navActive {
     display: block;
   }
-  .flex-header{
+  .flex-header {
     flex-direction: column;
   }
-  .nav-ul {      
+  .nav-ul {
     flex-direction: column;
     text-align: justify;
     top: 50px;
     right: 20px;
     position: fixed;
-        
   }
   .bck {
     height: 140px;
@@ -224,7 +220,7 @@
 
 @media (max-width: 768px) {
   .burgerbar {
-    display: block;    
+    display: block;
     font-size: 30px;
     color: white;
   }
@@ -234,16 +230,15 @@
   .navActive {
     display: block;
   }
-  .flex-header{
+  .flex-header {
     flex-direction: column;
   }
-  .nav-ul {      
+  .nav-ul {
     flex-direction: column;
     text-align: justify;
     top: 50px;
     right: 20px;
     position: fixed;
-        
   }
   .mailclass {
     display: flex;
@@ -299,7 +294,7 @@
 
 @media (max-width: 480px) {
   .burgerbar {
-    display: block;    
+    display: block;
     font-size: 30px;
     color: white;
   }
@@ -309,16 +304,15 @@
   .navActive {
     display: block;
   }
-  .flex-header{
+  .flex-header {
     flex-direction: column;
   }
-  .nav-ul {      
+  .nav-ul {
     flex-direction: column;
     text-align: justify;
     top: 50px;
     right: 20px;
     position: fixed;
-        
   }
   .mailclass {
     flex-wrap: wrap;
@@ -349,7 +343,7 @@
 
 @media (max-width: 320px) {
   .burgerbar {
-    display: block;    
+    display: block;
     font-size: 30px;
     color: white;
   }
@@ -359,16 +353,15 @@
   .navActive {
     display: block;
   }
-  .flex-header{
+  .flex-header {
     flex-direction: column;
   }
-  .nav-ul {      
+  .nav-ul {
     flex-direction: column;
     text-align: justify;
     top: 50px;
     right: 20px;
     position: fixed;
-        
   }
   .contacticons {
     margin: 0 auto;
