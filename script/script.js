@@ -9,6 +9,7 @@ $(function(){
 	arrows: true,
 	// რომ გამოჩნდეს ბურთულები
 	dots:true,
+	
 	// responsiv-ის კოდი
 	responsive: [
 	    {
@@ -17,6 +18,7 @@ $(function(){
 			arrows: false,
 	        slidesToShow: 2,
 	        slidesToScroll: 1
+			
 			
 	      }
 	    },

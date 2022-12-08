@@ -64,7 +64,6 @@
     margin-bottom: 30px;
   }
 }
-
 @media (max-width: 480px) {
   .navigation {
     display: none;
@@ -107,24 +106,14 @@
     font-size: 14px;
   }
 }
-/* for my mobile */
-@media (max-width: 650px) {  
-  .bck :nth-child(1) {
-    font-size: 20px;
-    padding: 0;
-    padding-top: 50px;
-  }
-  .bck :nth-child(2) {
-    font-size: 20px;
-  }
-}
+
 @media (max-width: 320px) {
   .navigation {
     display: none;
   }
   .burgerbar {
     display: block;
-    margin-right: 30px auto;
+    margin-right: 30px;
     font-size: 30px;
     color: white;
   }

@@ -95,7 +95,6 @@
 .slider {
   display: flex;
   border-radius: 15px;
-  box-shadow: #0f0f16;
   background-color: #a4ac86;
 }
 .slider .slider_item {
@@ -269,11 +268,8 @@
 .sendmail {
   max-width: 600px;
   width: 100%;
-  /* border-radius: 20px; */
   display: flex;
   flex-direction: column;
-  /* background-color: #656d4a; */
-  /* box-shadow: 0 0 50px; */
 }
 .sendmail h2 {
   text-align: center;
