@@ -108,7 +108,7 @@
   }
 }
 /* for my mobile */
-@media (max-width: 393px) {  
+@media (max-width: 650px) {  
   .bck :nth-child(1) {
     font-size: 20px;
     padding: 0;
