@@ -1,10 +1,14 @@
-/* section 1header */
-
+/* section 1 header */
+.iconclass{
+  position: fixed;
+  top: 0.01px;
+  left: 20px;
+}
 .flex-header {
   width: 100%;
-  height: 50px;
+  height: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   top: 0;
@@ -20,22 +24,31 @@
 .flex-header img {
   width: 80px;
 }
-.nav-ul {
+.navigation {
+  display: flex;  
+}
+.nav-ul{
   display: flex;
+  
 }
 .nav-ul li a {
   margin-left: 150px;
   font-size: 20px;
-  color: white;
+  color: #ffffff;
   font-family: "Arsenal";
 }
 
-.nav-ul :nth-child(3) {
+/* .navigation :nth-child(3) {
   margin-right: 150px;
-}
+} */
 
 .burgerbar {
+  position: absolute;
   display: none;
+  top: 10px;
+  right: 20px;
+  color: #ffffff;
+  
 }
 
 /* section 2 */
@@ -230,7 +243,7 @@
 
 /* hover index */
 
-.nav-ul li a:hover {
+.navigation li a:hover {
   font-size: 22px;
   text-shadow: 0 0 30px;
   transition: 0.3s;
