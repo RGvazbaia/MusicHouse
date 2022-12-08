@@ -1,6 +1,6 @@
 /* index */
 @media (max-width: 1024px) {
-  .bck{
+  .bck {
     height: 440px;
   }
   .bck :nth-child(1) {
@@ -12,7 +12,7 @@
   .bck :nth-child(2) {
     font-size: 40px;
   }
-  .h3popular{
+  .h3popular {
     margin: 0;
     margin-top: 100px;
     margin-bottom: 30px;
@@ -48,10 +48,9 @@
   .navActive {
     display: block;
   }
- .bck{
-  height: 330px;
-  
- }
+  .bck {
+    height: 330px;
+  }
   .bck :nth-child(1) {
     font-size: 28px;
     padding-top: 120px;
@@ -59,13 +58,12 @@
   .bck :nth-child(2) {
     font-size: 28px;
   }
-  .h3popular{
+  .h3popular {
     margin: 0;
     margin-top: 100px;
     margin-bottom: 30px;
   }
 }
-
 
 @media (max-width: 480px) {
   .navigation {
@@ -77,15 +75,13 @@
     font-size: 30px;
     color: white;
   }
-.bck{
-  height: 210px;
-  
-}
- 
+  .bck {
+    height: 210px;
+  }
+
   .bck :nth-child(1) {
     font-size: 22px;
     padding-top: 80px;
-    
   }
   .bck :nth-child(2) {
     font-size: 22px;
@@ -111,13 +107,14 @@
     font-size: 14px;
   }
 }
-@media (max-width: 400px){
-  .bck :nth-child(1){
+/* for my mobile */
+@media (max-width: 393px) {  
+  .bck :nth-child(1) {
     font-size: 20px;
     padding: 0;
     padding-top: 50px;
   }
-  .bck :nth-child(2){
+  .bck :nth-child(2) {
     font-size: 20px;
   }
 }
@@ -132,7 +129,7 @@
     color: white;
   }
   .bck {
-   height: 140px;
+    height: 140px;
   }
   .bck :nth-child(1) {
     font-size: 15px;
@@ -147,9 +144,8 @@
     font-size: 30px;
     margin: 0;
     margin-bottom: 20px;
-    
   }
-  
+
   .aboutus h2 {
     font-size: 30px;
     margin: 0 auto;
