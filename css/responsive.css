@@ -1,351 +1,306 @@
 /* index */
-@media (max-width:1024px) {
-    
-    .bck{
-        max-width: 800px;
-        width: 100%;
-        height: 500px;
-        margin-top: 60px;
-        
-    }
-   
-    .bck :nth-child(1){
-        padding: 0;
-        padding-top: 200px;
-        font-size: 30px;
-    }
+@media (max-width: 1024px) {
+  .bck{
+    height: 440px;
+  }
+  .bck :nth-child(1) {
+    padding: 0;
+    padding-top: 160px;
+    font-size: 40px;
+  }
 
-    .bck :nth-child(2){
-        font-size: 30px;
-    }
-     
-    
-    .slidesToScroll{
-        display: none;
-    }
-     
-    .slider .slider_item img{
-        width: 240px;
-        
-        
-    }
-     .slick-track:before{
-        display: none;
-    }
+  .bck :nth-child(2) {
+    font-size: 40px;
+  }
+  .h3popular{
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
 
-    
+  .slidesToScroll {
+    display: none;
+  }
 
-    .vinyldiv{
-        margin-left: 10px;
-        
-    }
-    
+  .slider .slider_item img {
+    width: 240px;
+  }
+  .slick-track:before {
+    display: none;
+  }
+
+  .vinyldiv {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .burgerbar {
+    display: block;
+    margin-right: 20px;
+    font-size: 30px;
+    color: white;
+  }
+  .navigation {
+    display: none;
+  }
+
+  .navActive {
+    display: block;
+  }
+ .bck{
+  height: 330px;
+  
+ }
+  .bck :nth-child(1) {
+    font-size: 28px;
+    padding-top: 120px;
+  }
+  .bck :nth-child(2) {
+    font-size: 28px;
+  }
+  .h3popular{
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
 }
 
 
-@media (max-width:768px) {
-    .burgerbar{
-        display: block;
-        margin-right: 20px;
-        font-size: 30px;
-        color: white;
-    }
-    .navigation{
-        display: none;
-
-    }
-    
-    .navActive{
-        display: block;
-    }
-
-    
-    
-    .bck{
-        max-width: 700px;
-        width: 100%;
-        height: 440px;
-    }
-    .bck :nth-child(1){
-        font-size: 28px;
-        padding-top: 190px;
-    }
-    .bck :nth-child(2){
-        font-size: 28px;
-              
-     }  
-    
+@media (max-width: 480px) {
+  .navigation {
+    display: none;
+  }
+  .burgerbar {
+    display: block;
+    margin-right: 20px;
+    font-size: 30px;
+    color: white;
+  }
+.bck{
+  height: 210px;
+  
 }
-
-
-@media (max-width:480px){
-    
-    .navigation{
-        display: none;
-
-    }
-    .burgerbar{
-        display: block;
-        margin-right: 20px;
-        font-size: 30px;
-        color: white;
-    }
-
-    .bck{
-        max-width: 440px;
-        width: 100%;
-        height: 290px;
-    }
-    .bck :nth-child(1){
-        font-size: 18px;
-        padding-top: 120px;
-    }
-    .bck :nth-child(2){
-        font-size: 18px;
-              
-     }  
-    
-    .h3popular{
-        font-size: 35px;
-    }
-    
-    .aboutus h2{
-        font-size: 35px;
-        margin: 0 auto;
-    }
-    .aboutus p{
-        font-size: 16px;
-        
-    }
-    .footer-block p{
-        font-size: 14px;
-    }
  
-}
-@media (max-width:320px){
-    .navigation{
-        display: none;
+  .bck :nth-child(1) {
+    font-size: 22px;
+    padding-top: 80px;
+    
+  }
+  .bck :nth-child(2) {
+    font-size: 22px;
+    padding: 0;
+    padding-top: 15px;
+  }
 
-    }
-    .burgerbar{
-        display: block;
-        margin-right: 30px auto;
-        font-size: 30px;
-        color: white;
-    }
-    .bck{
-        max-width: 300px;
-        width: 100%;
-        height: 205px;
-    }
-    .bck :nth-child(1){
-        font-size: 13px;
-        padding-top: 90px;
-    }
-    .bck :nth-child(2){
-        font-size: 13px;
-        padding: 0;
-        padding-top: 10px;
-              
-     } 
-    .h3popular{
-        font-size: 30px;
-    }
+  .h3popular {
+    font-size: 35px;
+    margin: 0;
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+
+  .aboutus h2 {
+    font-size: 35px;
+    margin: 0 auto;
+  }
+  .aboutus p {
+    font-size: 16px;
+  }
+  .footer-block p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .navigation {
+    display: none;
+  }
+  .burgerbar {
+    display: block;
+    margin-right: 30px auto;
+    font-size: 30px;
+    color: white;
+  }
+  .bck {
+   height: 140px;
+  }
+  .bck :nth-child(1) {
+    font-size: 15px;
+    padding-top: 50px;
+  }
+  .bck :nth-child(2) {
+    font-size: 15px;
+    padding: 0;
+    padding-top: 10px;
+  }
+  .h3popular {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 20px;
     
-    .aboutus h2{
-        font-size: 30px;
-        margin: 0 auto;
-    }
-    .aboutus p{
-        font-size: 16px;
-    }
-    .footer-block p{
-        font-size: 14px;
-    }
-    .fa-brands{
-        font-size: 25px;
-    }   
-    
+  }
+  
+  .aboutus h2 {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .aboutus p {
+    font-size: 16px;
+  }
+  .footer-block p {
+    font-size: 14px;
+  }
+  .fa-brands {
+    font-size: 25px;
+  }
 }
 
 /* contact */
-@media (max-width:1024px){
-    .weblinks {
-        width: 400px;
-        
-        
-    }
+@media (max-width: 1024px) {
+  .weblinks {
+    width: 400px;
+  }
 
-    .contacticons{
-        width: 400px;
-        
-    }
-    .contacticons .fa-facebook{
-        font-size: 50px;  
-                  
-        
-       
-    }
-    .contacticons .fa-instagram{
-        font-size: 50px;    
-        
-    }
-    .contacticons .fa-paper-plane{
-        font-size:50px;        
-       
-    
-    }
-    .contacticons .fa-twitter{ 
-        font-size: 50px;        
-       
-    }
-    /* hover */
-    .weblinks .fa-facebook:hover{
-        font-size: 60px;
-        }
-    .weblinks .fa-instagram:hover{
-        font-size: 60px;
-    }
-    .weblinks .fa-paper-plane:hover{
-        font-size: 60px;
-    }
-    .weblinks .fa-twitter:hover{
-        font-size: 60px;
-    }
-}
-    
-
-
-@media (max-width:768px){
-    .mailclass{
-        display: flex;
-        flex-direction: column;
-        margin: 60px auto;
-        
-    }
-    .sendmail{
-        margin-left: 20px;
-        max-width: 500px;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .sendmail h2{
-        font-size: 35px;
-       
-    }
-   
-    .weblinks{
-        max-width: 500px;        
-        width: 100%;
-        height: 300px;
-        display: flex;        
-        flex-wrap: wrap;
-        align-items: center;               
-        margin: 50px auto;
-        
-        
-    }
-    
-    .weblinks h2{
-        font-size: 35px;
-        margin: 0 auto;
-        margin-top: 50px;
-        margin-bottom: 120px;
-        
-    }
-    .contacticons{
-        display: flex;
-        width: 500px;
-        height: 200px;
-        
-        
-        
-    }
-    .contacticons .fa-facebook{
-        font-size: 60px;               
-        width: 100%;
-        margin-left: 65px;
-       
-    }
-    .contacticons .fa-instagram{
-        font-size: 60px;    
-        
-    }
-    .contacticons .fa-paper-plane{
-        font-size:60px;        
-        
-    
-    }
-    .contacticons .fa-twitter{ 
-        font-size: 60px;        
-        
-    }
-    
-    
+  .contacticons {
+    width: 400px;
+  }
+  .contacticons .fa-facebook {
+    font-size: 50px;
+  }
+  .contacticons .fa-instagram {
+    font-size: 50px;
+  }
+  .contacticons .fa-paper-plane {
+    font-size: 50px;
+  }
+  .contacticons .fa-twitter {
+    font-size: 50px;
+  }
+  /* hover */
+  .weblinks .fa-facebook:hover {
+    font-size: 60px;
+  }
+  .weblinks .fa-instagram:hover {
+    font-size: 60px;
+  }
+  .weblinks .fa-paper-plane:hover {
+    font-size: 60px;
+  }
+  .weblinks .fa-twitter:hover {
+    font-size: 60px;
+  }
 }
 
-@media (max-width:480px){
-    .mailclass{
-        flex-wrap: wrap;
-    }
-    .sendmail{
-        margin: 0;
-    }
-    .weblinks {
-        
-        margin: 0;
-        margin-top: 50px;
-        height: 300px;
-        
-    }
-    .contacticons .fa-facebook{
-        margin: 0;
-        margin-left: 40px;
-    }
-    .weblinks h2{
-        
-        margin-bottom: 20px;
-        text-align: center;
-    }
-   .contactmap h2{
+@media (max-width: 768px) {
+  .mailclass {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+  }
+  .sendmail {
+    margin-left: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .sendmail h2 {
     font-size: 35px;
-   }
-   .aboutus p{
-    text-align: center;
-   }
+  }
+
+  .weblinks {
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px auto;
+  }
+
+  .weblinks h2 {
+    font-size: 35px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 120px;
+  }
+  .contacticons {
+    display: flex;
+    width: 500px;
+    height: 200px;
+  }
+  .contacticons .fa-facebook {
+    font-size: 60px;
+    width: 100%;
+    margin-left: 65px;
+  }
+  .contacticons .fa-instagram {
+    font-size: 60px;
+  }
+  .contacticons .fa-paper-plane {
+    font-size: 60px;
+  }
+  .contacticons .fa-twitter {
+    font-size: 60px;
+  }
 }
 
-@media (max-width:320px){
-    .contacticons{
-        margin: 0 auto;
-        width: 300px;
-        height: 100px;
-        display: flex;
-        flex-wrap: wrap;
-       
-    }
-    .contacticons .fa-facebook{
-        font-size: 50px;
-        margin: 0;
-        margin-left: 20px;
-    }
-    .contacticons .fa-instagram{
-        font-size: 50px;
-        margin: 0;
-        margin-left: 25px;
-    }
-    .contacticons .fa-paper-plane{
-        font-size: 50px;
-        margin: 0;
-        margin-left: 25px;
-    }
-    .contacticons .fa-twitter{
-        font-size: 50px;
-        margin: 0;
-        margin-left: 25px;
-        
-    }
-    .icons .fa-facebook{
-        margin: 0;
-    }
+@media (max-width: 480px) {
+  .mailclass {
+    flex-wrap: wrap;
+  }
+  .sendmail {
+    margin: 0;
+  }
+  .weblinks {
+    margin: 0;
+    margin-top: 50px;
+    height: 300px;
+  }
+  .contacticons .fa-facebook {
+    margin: 0;
+    margin-left: 40px;
+  }
+  .weblinks h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .contactmap h2 {
+    font-size: 35px;
+  }
+  .aboutus p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .contacticons {
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contacticons .fa-facebook {
+    font-size: 50px;
+    margin: 0;
+    margin-left: 20px;
+  }
+  .contacticons .fa-instagram {
+    font-size: 50px;
+    margin: 0;
+    margin-left: 25px;
+  }
+  .contacticons .fa-paper-plane {
+    font-size: 50px;
+    margin: 0;
+    margin-left: 25px;
+  }
+  .contacticons .fa-twitter {
+    font-size: 50px;
+    margin: 0;
+    margin-left: 25px;
+  }
+  .icons .fa-facebook {
+    margin: 0;
+  }
 }

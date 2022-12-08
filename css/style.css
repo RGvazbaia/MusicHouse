@@ -1,444 +1,391 @@
 /* section 1header */
 
-.flex-header{    
-    width:100%;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-	top: 0;
-	left: 0;	
-	z-index: 100;
-    background: rgb(11,6,3);
-    background: linear-gradient(90deg, rgba(11,6,3,1) 15%, rgba(117,62,2,0.5914740896358543) 100%); 
+.flex-header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: rgb(17, 20, 14);
+  background: radial-gradient(
+    circle,
+    rgba(17, 20, 14, 1) 0%,
+    rgba(13, 15, 11, 1) 100%
+  );
+}
+.flex-header img {
+  width: 80px;
+}
+.nav-ul {
+  display: flex;
+}
+.nav-ul li a {
+  margin-left: 150px;
+  font-size: 20px;
+  color: white;
+  font-family: "Arsenal";
+}
 
-}
-.flex-header img{
-    width: 80px;
-    
-}
-.nav-ul{
-    display: flex;
-    
-}
-.nav-ul li a{
-    margin-left: 150px;
-    font-size: 20px;
-    color: white;
-    font-family: 'Arsenal';
-    
-}
-
-.nav-ul :nth-child(3){
-    margin-right: 150px;
-    
-    
+.nav-ul :nth-child(3) {
+  margin-right: 150px;
 }
 
 .burgerbar {
-    display: none;
+  display: none;
 }
 
 /* section 2 */
-.bodystyle{  
-    background: rgb(79,49,30);
-    background: radial-gradient(circle, rgba(79,49,30,1) 0%, rgba(0,0,0,1) 51%);
-    width: 100%;
-    height: 100%;
-    
+.bodystyle {
+  background: rgb(51, 61, 41);
+  background: radial-gradient(
+    circle,
+    rgba(51, 61, 41, 1) 0%,
+    rgba(21, 24, 17, 1) 100%
+  );
+  width: 100%;
+  height: 100%;
 }
 
-.bck{
-    background-image: url('../images/vinyl.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    max-width: 1200px;
-    width: 100%;
-    height: 800px;
-    margin: 0 auto;
-    margin-top: 60px;
-    border-radius: 15px;
+.bck {
+  background-image: url("../images/vinyl.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 1088px;
+  width: 100%;
+  height: 470px;
+  margin: 0 auto;
+  margin-top: 50px;
+  
 }
 
-
-.bck :nth-child(1){
-    
-    color: white;
-    font-size: 48px;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 280px;
-    font-family: 'Merienda';
-    
-    
-    
+.bck :nth-child(1) {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 180px;
+  font-family: "Merienda";
 }
- .bck :nth-child(2){
-    
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 50px;
-    margin: 0 auto;    
-    font-family: 'Merienda';
-    
-} 
+.bck :nth-child(2) {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 auto;
+  font-family: "Merienda";
+}
 /* section 3 4 5 6 */
-.bodysection{
-    max-width: 1088px;
-    width: 100%;    
-    margin: 50px auto;
-    
-    
+.bodysection {
+  max-width: 1088px;
+  width: 100%;
+  margin: 50px auto;
 }
-.h3popular{
-    text-align: center;
-    font-size: 42px;
-    margin-top: 150px;
-    margin-bottom: 50px;
-    color: white;
-    font-family: 'Arsenal';
-    
-    
+.h3popular {
+  text-align: center;
+  font-size: 42px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  color: white;
+  font-family: "Arsenal";
 }
 
 .slider {
-    display: flex;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: #0f0f16;
+  background-color: #a4ac86;
 }
 .slider .slider_item {
-    width: 400px;
-    height: 300px;
-    margin: 30px;    
+  width: 400px;
+  height: 300px;
+  margin: 30px;
 }
 .slider .slider_item img {
-    width: 100%;
-    height:300px;
-    display: block;
-    object-fit: cover;
-    border-radius: 10px;
-    margin: 0 auto;
-    
-    
+  width: 100%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 auto;
 }
-
-
 
 /* section 7 */
 
-.popularvinyl{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    grid-template-columns: auto auto auto;
-    max-width: 950px;
-    width: 100%;
-    margin: 0 auto;
+.popularvinyl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .vinyldiv {
-    max-width: 250px;
-    width: 100%;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 0 0 50px #0f0f16;
-    margin-top: 60px;
-    
+  max-width: 250px;
+  width: 100%;
+  background-color: #b6ad90;
+  border-radius: 20px;
+  box-shadow: 0 0 50px #0f0f16;
+  margin-top: 60px;
 }
-.vinyldiv img{
-    border-radius: 20px;
+.vinyldiv img {
+  border-radius: 20px;
 }
-.vinyldiv h3{
-    font-size: 20px;
-    margin-top: 5px;
-    font-family: 'Poppins';
-    text-align: center;
-    
-    
+.vinyldiv h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  font-family: "Poppins";
+  text-align: center;
 }
-.vinyldiv p{
-    text-align: center;
-    font-size: 20px;
-    margin-top: 10px;
-    font-family: 'Poppins';
-    
+.vinyldiv p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: "Poppins";
 }
 
-.vinyldiv .fa-youtube{
-    margin-left: 100px;
-    color: red;
-    font-size: 50px;
+.vinyldiv .fa-youtube {
+  margin-left: 100px;
+  color: red;
+  font-size: 50px;
 }
-
-
 
 /* section 8 aboutus */
-.aboutus{
-    max-width: 700px;
-    width: 100%;
-    padding-top: 40px;
-    margin: 0 auto;
-    
-    
+.aboutus {
+  max-width: 700px;
+  width: 100%;
+  padding-top: 40px;
+  margin: 0 auto;
 }
-.aboutus h2{
-    margin-top: 100px;
-    text-align: center;
-    font-size: 45px;
-    color: red;
-    font-family: 'Merienda';
-    
+.aboutus h2 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 45px;
+  color: red;
+  font-family: "Merienda";
 }
-.aboutus p{
-    font-size: 25px;
-    text-align: justify;
-    margin-top: 15px;
-    font-family: 'Arsenal';
-    color: white;   
-    align-items: center;
-    
+.aboutus p {
+  font-size: 25px;
+  text-align: justify;
+  margin-top: 15px;
+  font-family: "Arsenal";
+  color: white;
+  align-items: center;
 }
 
 /*section 9 footer*/
 
-.footer-block{
-    background-color: black;
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
-   }
-   .contactfooter{
-    margin: 0 auto;
-    max-width: 400px;
-    width: 100%;
-    padding-top: 10px; 
-    
-   }
-   .fpstyle {
-    margin-bottom: 20px;
-    
-   }
-   .icons {
-    display: flex;
-    justify-content: space-between;
-
-   }
-
-
-   .icons .fa-facebook{
-    font-size: 40px;
-    color: #3B5998
-    
+.footer-block {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
 }
-.icons .fa-instagram{
-    font-size: 40px;
-    color: blueviolet;
-    
+.contactfooter {
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+  padding-top: 10px;
 }
-.icons .fa-youtube{
-    font-size: 40px;
-    color: #DC4E41;
-    margin-left: 40px;
-    
-
+.fpstyle {
+  margin-bottom: 20px;
 }
-.icons .fa-twitter{
-    font-size: 40px;
-    color: #55ACEE;
-}
-.footer-block p{
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-    font-family: 'Poppins';
-}
-.span1{
-    
-    color:#5863F8;    
-    font-family: 'Poppins';
+.icons {
+  display: flex;
+  justify-content: space-between;
 }
 
+.icons .fa-facebook {
+  font-size: 40px;
+  color: #3b5998;
+}
+.icons .fa-instagram {
+  font-size: 40px;
+  color: blueviolet;
+}
+.icons .fa-youtube {
+  font-size: 40px;
+  color: #dc4e41;
+  margin-left: 40px;
+}
+.icons .fa-twitter {
+  font-size: 40px;
+  color: #55acee;
+}
+.footer-block p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Poppins";
+}
+.span1 {
+  color: #5863f8;
+  font-family: "Poppins";
+}
 
 /* hover index */
 
-.nav-ul li a:hover{
-    font-size: 22px;
-    text-shadow: 0 0 30px;
-    transition: 0.3s;
-
-    
+.nav-ul li a:hover {
+  font-size: 22px;
+  text-shadow: 0 0 30px;
+  transition: 0.3s;
 }
-
-
 
 /* contact.html */
 
-.contactmap{
-    
-    display: flex;
-    
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
+.contactmap {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
 }
 
-
-.map{
-    max-width: 1400px;
-    width: 100%;
-    margin-top: 50px;
-    border-radius: 25px;
+.map {
+  max-width: 1400px;
+  width: 100%;
+  margin-top: 50px;
+  border-radius: 25px;
 }
-.contactmap h2{
-    font-size: 42px;
-    font-family: 'Merienda';
-    color: white;
-    text-shadow: 0 0 10px;
-
+.contactmap h2 {
+  font-size: 42px;
+  font-family: "Merienda";
+  color: white;
+  text-shadow: 0 0 10px;
 }
 
-.mailclass{
-    border-radius: 25px;
-    max-width: 1400px;
-    display: flex;    
-    margin: 150px auto;
-    
+.mailclass {
+  border-radius: 25px;
+  max-width: 1400px;
+  display: flex;
+  margin: 150px auto;
 }
-.sendmail{    
-    max-width: 600px;
-    width: 100%;
-    border-radius: 20px;     
-    display: flex;
-    flex-direction: column;
-    background-color: #0b0739;
-    box-shadow: 0 0 50px;    
+.sendmail {
+  max-width: 600px;
+  width: 100%;
+  /* border-radius: 20px; */
+  display: flex;
+  flex-direction: column;
+  /* background-color: #656d4a; */
+  /* box-shadow: 0 0 50px; */
 }
-.sendmail h2{
-    text-align: center;
-    margin-bottom: 50px;
-    font-size: 42px;
-    font-family: 'Merienda';
-    color: white;
-    margin-top: 20px;
-    text-shadow: 0 0 10px;
+.sendmail h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 42px;
+  font-family: "Merienda";
+  color: white;
+  margin-top: 20px;
+  text-shadow: 0 0 10px;
 }
-.sendmail input{
-    max-width: 600px;
-    width: 100%;
-    height: 60px;
-    margin-top: 16px;
-    
-    align-items: center;
-    border-radius: 25px;
+.sendmail input {
+  max-width: 600px;
+  width: 100%;
+  height: 60px;
+  margin-top: 16px;
+  border-radius: 15px;
+  align-items: center;
+  
 }
-.sendmail :nth-child(3){
-    height: 100px;
-    
+.sendmail :nth-child(3) {
+  height: 100px;
 }
-.sendbutton{
-    background-color: #5863F8;
-    max-width: 200px;
-    width: 100%;
-    height: 60px;
-    margin-top: 16px;
+.sendbutton {
+  background-color: #5863f8;
+  max-width: 200px;
+  width: 100%;
+  height: 60px;
+  margin-top: 16px;
 
-    border: none;
-    border-radius: 25px;
-    
+  border: none;
+  border-radius: 25px;
 }
-.sendspan{
-    color: #ffffff;
-    font-family: 'Merienda';
-    
+.sendspan {
+  color: #ffffff;
+  font-family: "Merienda";
 }
-.fa-paper-plane{
-    margin-left: 14px;
-    color: red;
+.fa-paper-plane {
+  margin-left: 14px;
+  color: red;
 }
-.weblinks{  
-    max-width: 800px;
-    width: 100%;
-    margin-left: 150px;
-    
+.weblinks {
+  max-width: 800px;
+  width: 100%;
+  margin-left: 150px;
+}
+.weblinks h2 {
+  color: white;
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 100px;
+  font-family: "Merienda";
+  margin-top: 20px;
+  text-shadow: 0 0 10px;
+}
+.weblinks a {
+  flex-wrap: wrap;
+  font-size: 100px;
+}
+.fa-facebook {
+  margin-left: 25px;
+  color: #3b5998;
+}
+.fa-instagram {
+  margin-left: 50px;
 
-    
+  color: blueviolet;
+}
+.fa-paper-plane {
+  margin-left: 50px;
+  color: #dc4e41;
+}
+.fa-twitter {
+  margin-left: 50px;
 
-}
-.weblinks h2{
-    color: white;
-    text-align: center;
-    font-size: 42px;
-    margin-bottom: 100px;
-    font-family: 'Merienda';
-    margin-top: 20px;
-    text-shadow: 0 0 10px;
-}
-.weblinks a{
-    flex-wrap: wrap;
-    font-size: 100px;
-    
-}
-.fa-facebook{
-    margin-left: 25px;    
-    color: #3B5998;
-}
-.fa-instagram{
-    margin-left: 50px;
-    
-    color: blueviolet;
-}
-.fa-paper-plane{
-    
-    margin-left: 50px;
-    color: #DC4E41;
-
-}
-.fa-twitter{
-    margin-left: 50px;
-   
-    color: #55ACEE;
+  color: #55acee;
 }
 /* hover contact  */
 
- .weblinks .fa-facebook:hover{
-    font-size: 110px;
-    transition: 0.5s;
-    
-    }
-.weblinks .fa-instagram:hover{
-    font-size: 110px;
-    transition: 0.5s;
+.weblinks .fa-facebook:hover {
+  font-size: 110px;
+  transition: 0.5s;
 }
-.weblinks .fa-paper-plane:hover{
-    font-size: 110px;
-    transition: 0.5s;
+.weblinks .fa-instagram:hover {
+  font-size: 110px;
+  transition: 0.5s;
 }
-.weblinks .fa-twitter:hover{
-    font-size: 110px;
-    transition: 0.5s;
+.weblinks .fa-paper-plane:hover {
+  font-size: 110px;
+  transition: 0.5s;
 }
-
+.weblinks .fa-twitter:hover {
+  font-size: 110px;
+  transition: 0.5s;
+}
 
 /* About us */
-.aboutuspage{
-    max-width: 1500px;
-    width: 100%;
-    text-align: center;
-    margin: 200px auto;
-    
+.aboutuspage {
+  max-width: 1500px;
+  width: 100%;
+  text-align: center;
+  margin: 200px auto;
 }
-.aboutuspage :nth-child(1){
-    font-size: 42px;
-    color: white;
-    font-family: 'Merienda';
+.aboutuspage :nth-child(1) {
+  font-size: 42px;
+  color: white;
+  font-family: "Merienda";
 }
-.aboutuspage :nth-child(2){
-    font-size: 25px;
-    text-align: justify;
-    color: white;
-    margin-top: 50px;
-    font-family: 'Merienda';
+.aboutuspage :nth-child(2) {
+  font-size: 25px;
+  text-align: justify;
+  color: white;
+  margin-top: 50px;
+  font-family: "Merienda";
 }
-
