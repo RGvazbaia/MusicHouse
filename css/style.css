@@ -404,15 +404,20 @@
 
  .weblinks .fa-facebook:hover{
     font-size: 110px;
+    transition: 0.5s;
+    
     }
 .weblinks .fa-instagram:hover{
     font-size: 110px;
+    transition: 0.5s;
 }
 .weblinks .fa-paper-plane:hover{
     font-size: 110px;
+    transition: 0.5s;
 }
 .weblinks .fa-twitter:hover{
     font-size: 110px;
+    transition: 0.5s;
 }
 
 
