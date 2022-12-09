@@ -38,9 +38,6 @@
   font-family: "Arsenal";
 }
 
-/* .navigation :nth-child(3) {
-  margin-right: 150px;
-} */
 
 .burgerbar {
   position: absolute;
@@ -75,20 +72,20 @@
 }
 
 .bck :nth-child(1) {
-  color: white;
+  color: 	#FFFFFF;
   font-size: 48px;
   text-align: center;
   margin: 0 auto;
   padding-top: 180px;
-  font-family: "Merienda";
+  
 }
 .bck :nth-child(2) {
-  color: white;
+  color: 	#FFFFFF;
   font-size: 48px;
   text-align: center;
   padding-top: 50px;
   margin: 0 auto;
-  font-family: "Merienda";
+  
 }
 /* section 3 4 5 6 */
 .bodysection {
@@ -101,7 +98,7 @@
   font-size: 42px;
   margin-top: 150px;
   margin-bottom: 50px;
-  color: white;
+  color: 	#FFFFFF;
   font-family: "Arsenal";
 }
 
@@ -163,11 +160,15 @@
 
 .vinyldiv .fa-youtube {
   margin-left: 100px;
-  color: red;
+  color: #FF0000;
   font-size: 50px;
 }
 
 /* section 8 aboutus */
+:root{
+  --about:#FF0000;
+  --font:"Merienda";
+}
 .aboutus {
   max-width: 700px;
   width: 100%;
@@ -177,23 +178,23 @@
 .aboutus h2 {
   margin-top: 100px;
   text-align: center;
-  font-size: 45px;
-  color: red;
-  font-family: "Merienda";
+  font-size: 45px;  
+  font-family: var(--font);
+  color: var(--about);
 }
 .aboutus p {
   font-size: 25px;
   text-align: justify;
   margin-top: 15px;
   font-family: "Arsenal";
-  color: white;
+  color: 	#FFFFFF;
   align-items: center;
 }
 
 /*section 9 footer*/
 
 .footer-block {
-  background-color: black;
+  background-color: 	#000000;
   width: 100%;
   height: 200px;
   margin-top: 100px;
@@ -230,7 +231,7 @@
   color: #55acee;
 }
 .footer-block p {
-  color: white;
+  color: 	#FFFFFF;
   font-size: 20px;
   text-align: center;
   margin-top: 20px;
@@ -268,7 +269,7 @@
 .contactmap h2 {
   font-size: 42px;
   font-family: "Merienda";
-  color: white;
+  color: 	#FFFFFF;
   text-shadow: 0 0 10px;
 }
 
@@ -289,7 +290,7 @@
   margin-bottom: 50px;
   font-size: 42px;
   font-family: "Merienda";
-  color: white;
+  color: 	#FFFFFF;
   margin-top: 20px;
   text-shadow: 0 0 10px;
 }
@@ -305,12 +306,12 @@
   height: 100px;
 }
 .sendbutton {
+  cursor: pointer;
   background-color: #5863f8;
   max-width: 200px;
   width: 100%;
   height: 60px;
   margin-top: 16px;
-
   border: none;
   border-radius: 25px;
 }
@@ -318,9 +319,31 @@
   color: #ffffff;
   font-family: "Merienda";
 }
+
+#borderdiv{
+  width:150px;
+  height:100px;
+  background-color: red;
+  z-index: 100;  
+  position: fixed;  
+  display: none;
+  margin:  25% auto;
+}
+.xclass{
+  border-radius: 50%;
+  background-color: lightslategray;
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  margin-left: 130px;
+  cursor: pointer;
+  
+  
+}
+
 .fa-paper-plane {
   margin-left: 14px;
-  color: red;
+  color: #FF0000;
 }
 .weblinks {
   max-width: 800px;
@@ -328,7 +351,7 @@
   margin-left: 150px;
 }
 .weblinks h2 {
-  color: white;
+  color: 	#FFFFFF;
   text-align: center;
   font-size: 42px;
   margin-bottom: 100px;
@@ -386,13 +409,13 @@
 }
 .aboutuspage :nth-child(1) {
   font-size: 42px;
-  color: white;
+  color: 	#FFFFFF;
   font-family: "Merienda";
 }
 .aboutuspage :nth-child(2) {
   font-size: 25px;
   text-align: justify;
-  color: white;
+  color: 	#FFFFFF;
   margin-top: 50px;
   font-family: "Merienda";
 }
