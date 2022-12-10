@@ -1,20 +1,37 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* section 1 header */
-.iconclass{
+.iconclass {
   position: fixed;
   top: 0.01px;
-  left: 20px;
+  left: 0;
 }
 .flex-header {
   width: 100%;
   height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
   background: rgb(17, 20, 14);
+  background: -o-radial-gradient(
+    circle,
+    rgba(17, 20, 14, 1) 0%,
+    rgba(13, 15, 11, 1) 100%
+  );
   background: radial-gradient(
     circle,
     rgba(17, 20, 14, 1) 0%,
@@ -25,11 +42,14 @@
   width: 80px;
 }
 .navigation {
-  display: flex;  
-}
-.nav-ul{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  
+}
+.nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .nav-ul li a {
   margin-left: 150px;
@@ -38,19 +58,22 @@
   font-family: "Arsenal";
 }
 
-
 .burgerbar {
   position: absolute;
   display: none;
   top: 10px;
   right: 20px;
   color: #ffffff;
-  
 }
 
 /* section 2 */
 .bodystyle {
   background: rgb(51, 61, 41);
+  background: -o-radial-gradient(
+    circle,
+    rgba(51, 61, 41, 1) 0%,
+    rgba(21, 24, 17, 1) 100%
+  );
   background: radial-gradient(
     circle,
     rgba(51, 61, 41, 1) 0%,
@@ -72,20 +95,18 @@
 }
 
 .bck :nth-child(1) {
-  color: 	#FFFFFF;
+  color: #ffffff;
   font-size: 48px;
   text-align: center;
   margin: 0 auto;
   padding-top: 180px;
-  
 }
 .bck :nth-child(2) {
-  color: 	#FFFFFF;
+  color: #ffffff;
   font-size: 48px;
   text-align: center;
   padding-top: 50px;
   margin: 0 auto;
-  
 }
 /* section 3 4 5 6 */
 .bodysection {
@@ -98,11 +119,13 @@
   font-size: 42px;
   margin-top: 150px;
   margin-bottom: 50px;
-  color: 	#FFFFFF;
+  color: #ffffff;
   font-family: "Arsenal";
 }
 
 .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   border-radius: 15px;
   background-color: #a4ac86;
@@ -116,7 +139,8 @@
   width: 100%;
   height: 300px;
   display: block;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
   margin: 0 auto;
 }
@@ -124,10 +148,17 @@
 /* section 7 */
 
 .popularvinyl {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: auto auto auto;
   grid-template-columns: auto auto auto;
   max-width: 950px;
   width: 100%;
@@ -139,7 +170,8 @@
   width: 100%;
   background-color: #b6ad90;
   border-radius: 20px;
-  box-shadow: 0 0 50px #0f0f16;
+  -webkit-box-shadow: 0 0 50px #0f0f16;
+          box-shadow: 0 0 50px #0f0f16;
   margin-top: 60px;
 }
 .vinyldiv img {
@@ -160,14 +192,14 @@
 
 .vinyldiv .fa-youtube {
   margin-left: 100px;
-  color: #FF0000;
+  color: #ff0000;
   font-size: 50px;
 }
 
 /* section 8 aboutus */
-:root{
-  --about:#FF0000;
-  --font:"Merienda";
+:root {
+  --about: #ff0000;
+  --font: "Merienda";
 }
 .aboutus {
   max-width: 700px;
@@ -178,7 +210,7 @@
 .aboutus h2 {
   margin-top: 100px;
   text-align: center;
-  font-size: 45px;  
+  font-size: 45px;
   font-family: var(--font);
   color: var(--about);
 }
@@ -187,14 +219,34 @@
   text-align: justify;
   margin-top: 15px;
   font-family: "Arsenal";
-  color: 	#FFFFFF;
-  align-items: center;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.aboutuspage {
+  max-width: 1500px;
+  width: 100%;
+  text-align: center;
+  margin: 200px auto;
+}
+.aboutuspage :nth-child(1) {
+  font-size: 42px;
+  color: #ff0000;
+  font-family: "Merienda";
+}
+.aboutuspage :nth-child(2) {
+  font-size: 25px;
+  text-align: justify;
+  color: #ffffff;
+  margin-top: 50px;
+  font-family: "Merienda";
 }
 
 /*section 9 footer*/
 
 .footer-block {
-  background-color: 	#000000;
+  background-color: #000000;
   width: 100%;
   height: 200px;
   margin-top: 100px;
@@ -209,8 +261,12 @@
   margin-bottom: 20px;
 }
 .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .icons .fa-facebook {
@@ -231,7 +287,7 @@
   color: #55acee;
 }
 .footer-block p {
-  color: 	#FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   text-align: center;
   margin-top: 20px;
@@ -247,16 +303,28 @@
 .navigation li a:hover {
   font-size: 22px;
   text-shadow: 0 0 30px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
 /* contact.html */
 
 .contactmap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+
+  -webkit-box-direction: normal;
+
+      -ms-flex-direction: column;
+
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 100px;
 }
 
@@ -269,28 +337,35 @@
 .contactmap h2 {
   font-size: 42px;
   font-family: "Merienda";
-  color: 	#FFFFFF;
+  color: #ffffff;
   text-shadow: 0 0 10px;
 }
 
 .mailclass {
   border-radius: 25px;
   max-width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 150px auto;
 }
 .sendmail {
   max-width: 600px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .sendmail h2 {
   text-align: center;
   margin-bottom: 50px;
   font-size: 42px;
   font-family: "Merienda";
-  color: 	#FFFFFF;
+  color: #ffffff;
   margin-top: 20px;
   text-shadow: 0 0 10px;
 }
@@ -300,7 +375,9 @@
   height: 60px;
   margin-top: 16px;
   border-radius: 15px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .sendmail :nth-child(3) {
   height: 100px;
@@ -320,30 +397,51 @@
   font-family: "Merienda";
 }
 
-#borderdiv{
-  width:150px;
-  height:100px;
-  background-color: red;
-  z-index: 100;  
-  position: fixed;  
-  display: none;
-  margin:  25% auto;
+#borderdiv {
+  width: 300px;
+  height: 100px;
+  background-color: #2596be;
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 25px;
+  -webkit-box-shadow: 0 0 100px #0f0f16;
+          box-shadow: 0 0 100px #0f0f16;
+  
 }
-.xclass{
+.borderpclass{
+  color: #ffffff;  
+  font-size: 14px;  
+  font-family: 'Merienda';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+
+
+}
+.xclass {
   border-radius: 50%;
   background-color: lightslategray;
-  width: 10px;
-  height: 10px;
-  padding: 10px;
-  margin-left: 130px;
+  color: #ffffff;
+  width: 2px;
+  height: 2px;
+  padding: 5px;
+  margin-left: 275px;  
   cursor: pointer;
-  
-  
+  font-family: 'Merienda';
 }
 
 .fa-paper-plane {
   margin-left: 14px;
-  color: #FF0000;
+  color: #ff0000;
 }
 .weblinks {
   max-width: 800px;
@@ -351,7 +449,7 @@
   margin-left: 150px;
 }
 .weblinks h2 {
-  color: 	#FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-size: 42px;
   margin-bottom: 100px;
@@ -360,7 +458,8 @@
   text-shadow: 0 0 10px;
 }
 .weblinks a {
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   font-size: 100px;
 }
 .fa-facebook {
@@ -385,37 +484,25 @@
 
 .weblinks .fa-facebook:hover {
   font-size: 110px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .weblinks .fa-instagram:hover {
   font-size: 110px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .weblinks .fa-paper-plane:hover {
   font-size: 110px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .weblinks .fa-twitter:hover {
   font-size: 110px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
-}
-
-/* About us */
-.aboutuspage {
-  max-width: 1500px;
-  width: 100%;
-  text-align: center;
-  margin: 200px auto;
-}
-.aboutuspage :nth-child(1) {
-  font-size: 42px;
-  color: 	#FFFFFF;
-  font-family: "Merienda";
-}
-.aboutuspage :nth-child(2) {
-  font-size: 25px;
-  text-align: justify;
-  color: 	#FFFFFF;
-  margin-top: 50px;
-  font-family: "Merienda";
 }

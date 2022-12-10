@@ -1,15 +1,3 @@
-@font-face {
-    font-family: 'Dancing Script';
-    src: url('../fonts/DancingScript-SemiBold.eot');
-    src: url('../fonts/DancingScript-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/DancingScript-SemiBold.woff2') format('woff2'),
-        url('../fonts/DancingScript-SemiBold.woff') format('woff'),
-        url('../fonts/DancingScript-SemiBold.ttf') format('truetype'),
-        url('../fonts/DancingScript-SemiBold.svg#DancingScript-SemiBold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
 
 @font-face {
     font-family: 'Poppins';
