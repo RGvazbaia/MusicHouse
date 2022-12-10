@@ -18,10 +18,10 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -140,7 +140,7 @@
   height: 300px;
   display: block;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 10px;
   margin: 0 auto;
 }
@@ -152,12 +152,12 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-grid-columns: auto auto auto;
   grid-template-columns: auto auto auto;
   max-width: 950px;
@@ -171,7 +171,7 @@
   background-color: #b6ad90;
   border-radius: 20px;
   -webkit-box-shadow: 0 0 50px #0f0f16;
-          box-shadow: 0 0 50px #0f0f16;
+  box-shadow: 0 0 50px #0f0f16;
   margin-top: 60px;
 }
 .vinyldiv img {
@@ -221,8 +221,8 @@
   font-family: "Arsenal";
   color: #ffffff;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .aboutuspage {
   max-width: 1500px;
@@ -265,8 +265,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .icons .fa-facebook {
@@ -319,12 +319,12 @@
 
   -webkit-box-direction: normal;
 
-      -ms-flex-direction: column;
+  -ms-flex-direction: column;
 
-          flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 100px;
 }
 
@@ -357,8 +357,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 .sendmail h2 {
   text-align: center;
@@ -376,8 +376,8 @@
   margin-top: 16px;
   border-radius: 15px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .sendmail :nth-child(3) {
   height: 100px;
@@ -391,6 +391,7 @@
   margin-top: 16px;
   border: none;
   border-radius: 25px;
+  
 }
 .sendspan {
   color: #ffffff;
@@ -406,26 +407,23 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   border-radius: 25px;
   -webkit-box-shadow: 0 0 100px #0f0f16;
-          box-shadow: 0 0 100px #0f0f16;
-  
+  box-shadow: 0 0 100px #0f0f16;
 }
-.borderpclass{
-  color: #ffffff;  
-  font-size: 14px;  
-  font-family: 'Merienda';
+.borderpclass {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Merienda";
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
-
-
 }
 .xclass {
   border-radius: 50%;
@@ -434,9 +432,9 @@
   width: 2px;
   height: 2px;
   padding: 5px;
-  margin-left: 275px;  
+  margin-left: 275px;
   cursor: pointer;
-  font-family: 'Merienda';
+  font-family: "Merienda";
 }
 
 .fa-paper-plane {
@@ -459,7 +457,7 @@
 }
 .weblinks a {
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   font-size: 100px;
 }
 .fa-facebook {
