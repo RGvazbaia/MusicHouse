@@ -376,19 +376,36 @@
     margin-top: 50px;
     height: 300px;
   }
-  .contacticons .fa-facebook {
+  .contacticons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .contacticons .fa-brands {
     margin: 0;
-    margin-left: 40px;
+  }
+  .contacticons .fa-solid {
+    margin: 0;
   }
   .weblinks h2 {
-    margin-bottom: 20px;
     text-align: center;
   }
   .contactmap h2 {
+    margin-top: 200px;
     font-size: 35px;
   }
   .aboutus p {
     text-align: center;
+  }
+  .icons .fa-facebook {
+    margin: 0;
   }
 }
 
@@ -421,37 +438,32 @@
     position: fixed;
   }
   .contacticons {
-    margin: 0 auto;
-    width: 300px;
-    height: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   .contacticons .fa-facebook {
     font-size: 50px;
     margin: 0;
-    margin-left: 20px;
   }
   .contacticons .fa-instagram {
     font-size: 50px;
     margin: 0;
-    margin-left: 25px;
   }
   .contacticons .fa-paper-plane {
     font-size: 50px;
     margin: 0;
-    margin-left: 25px;
   }
   .contacticons .fa-twitter {
     font-size: 50px;
     margin: 0;
-    margin-left: 25px;
   }
-  .icons .fa-facebook {
-    margin: 0;
-  }
-  
 }
